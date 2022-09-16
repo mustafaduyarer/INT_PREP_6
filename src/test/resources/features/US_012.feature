@@ -1,4 +1,4 @@
-
+@smoke  @regression
 Feature: Bir kullanıcı olarak "/login" sayfasına girdiğimde, şifremi unuttum bölümüne ulaşabilmeliyim
 
   Background:

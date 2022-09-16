@@ -5,11 +5,11 @@ import org.openqa.selenium.support.FindBy;
 
 public class LoginPage extends BasePage {
 
-    @FindBy ( name = "email" )
+    @FindBy ( name = "email")
     public WebElement emailInput;
 
-    @FindBy ( name = "password" )
-    public WebElement passwordInput;
+    @FindBy ( name = "sifre")
+    public WebElement sifreInput;
 
     @FindBy ( xpath = "//button[@type='submit']" )
     public WebElement loginButton;
